@@ -1,0 +1,5 @@
+AllCops:
+  Exclude:
+    - Guardfile
+Style/FrozenStringLiteralComment:
+  Enabled: false
