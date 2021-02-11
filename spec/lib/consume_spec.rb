@@ -1,4 +1,6 @@
+require_relative '../../lib/consume'
+
 describe 'AMQPConsume' do
-  it { is_expected.to respond_to(:new) }
+  subject { AMQPConsume.new }
   it { is_expected.to respond_to(:consume) }
 end
